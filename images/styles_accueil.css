@@ -1,0 +1,135 @@
+body{
+    height: 100%;
+    background: #F1FFDC;
+}
+
+/*Début En tête*/
+header{
+    display: flex;
+    position: top;
+    background-image: url("images/En\ tête.jpg") ;
+    background-size: cover;
+    background-position: center center;
+    min-height: 110px;
+}
+
+header h1{
+    order: 2;
+    text-align: center;
+    align-self: center;
+    font-family: Patua One;
+    font-size: 5em;
+    width: 80%;
+}
+
+.nom_site, .logo{
+    width: auto;
+    text-align: center;
+    margin: 20px;
+}
+.logo{
+    margin-right: 5%;
+}
+
+.nom_site{
+    margin-left: 5%;
+}
+
+.nom_site{
+    order: 1;
+}
+
+.logo{
+    order: 3;
+}
+/*Fin En tête*/
+
+/*Début barre de navigation*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DCEDC1;
+    height: 70px;
+}
+
+.bouton_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #A8E6CF;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 16px;
+    width: 9em;
+}
+.bouton_menu:hover, .bouton_menu:focus{
+    background-color: rgb(255, 170, 165);
+    cursor:pointer;
+}
+#recherche{    
+    margin-right: 25px;
+    width: 10em;
+}
+
+.groupe_boutons{
+    display: flex;    
+    margin-left: 20px;
+    margin-right: 5px;
+}
+/*Fin barre navigation*/
+
+/*Début Page principale Accueil*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(images/Image\ de\ fond.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 600px;
+}
+
+.presentation, .apercu_boutique{
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: rgba(255, 170, 165, 0.85);
+    margin: 25px;
+    width: 50%;
+    min-width: 300px;
+}
+
+main{
+    font-family: Satisfy;
+}
+main h1{
+    text-align: center;
+
+main p{
+    margin:10px;
+    font-size: 1.5em;
+}
+main em{
+    text-decoration: underline;
+    font-style: normal;
+}
+/*Fin Page principale Accueil*/
+
+/*Début Pied de page*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/Bas\ de\ page.jpg") ;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 50px;
+    font-family: Patua One;
+    font-size: 1.5em;
+}
+/*Fin Pied de page*/
+

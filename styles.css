@@ -1,0 +1,241 @@
+/*Polices titres grands ecrans*/
+@media screen and (min-width:960px){
+    h1{
+        font-size: 4.5rem ;
+    }
+}
+
+/*Polices titres ecrans moyens*/
+@media screen and (min-width:758px) and (max-width:960px){
+    h1{
+        font-size: 3.5rem ;
+    }
+}
+
+
+.rounded-circle{
+    max-block-size: 300px;
+}
+
+.navbar-toggler-icon{
+    color:black;
+}
+
+/*PAGE EQUIPE*/
+.equipe{
+    
+    -webkit-box-shadow: 10px 10px 5px #656565;
+    -o-box-shadow: 10px 10px 5px #656565;
+    box-shadow: 10px 10px 5px #656565;     
+    border: solid #FFAAA5;
+    background-color: #FFD3B6;
+    border: solid #FFAAA5;
+    background-color: #FFD3B6;
+    margin-bottom: 50px;
+    box-sizing: content-box;
+}
+
+.lien_boutique_carroussel, .lien_boutique_carroussel:hover{
+    color:black;
+}
+
+.card-img-top{
+    max-height: 20vh;
+    object-fit: cover;
+}
+
+.photo{     	
+    width  : 200px;
+    height : 200px;   
+    border-radius: 50%;    
+    background-size: cover;
+    background-position: center center;
+    border: 8px solid #FFAAA5; 
+    border: 8px solid #FFAAA5;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team img{
+    display: none;
+}
+
+#E1{
+    border: solid #FFD3B6;
+    background-color:  #FFAAA5;
+}
+
+#assel{
+    
+    border: 8px solid #FFAAA5; 
+}
+
+#francis{
+    border: 8px solid #FFD3B6;
+}
+
+#pef{
+    border: 8px solid #FFAAA5;
+}
+
+.generale{
+    margin-top: 20px;
+}
+/*FIN PAGE EQUIPE*/
+
+/*NAV*/
+
+.btn {
+    background-color: #A8E6CF;
+    border: 3px solid #000000;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left:5px;
+    margin-right: 5px;
+}
+.btn:hover{
+    background-color:  #FFAAA5;
+    border: 3px solid #656565;
+}
+.btn:focus{
+    background-color: #656565;
+    border: 3px solid #656565;
+}
+nav{
+    background-color: #DCEDC1;
+    margin-left:15px;
+    margin-right: 15px;
+}
+.accueil .col{
+    background-color: rgba(255, 170, 165, 0.8);
+}
+.accueil .container-fluid{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.boutique section{
+    background-color: rgba(255, 170, 165, 0.8);
+    margin:15px;
+    padding: 10px;
+}
+.team .generale{
+    background-color: #F1FFDC;
+    margin:15px;
+    padding: 10px;
+}
+
+/*Arrondi des encadrés de la page boutique*/
+.card{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/*contact*/
+
+.contact{
+    -moz-box-shadow: 10px 10px 5px #656565;
+    -webkit-box-shadow: 10px 10px 5px #656565;
+    -o-box-shadow: 10px 10px 5px #656565;
+    box-shadow: 10px 10px 5px #656565;  
+    margin-top: 80px;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color:  #FFAAA5;
+    border: solid black;
+}
+
+
+/*PRODUITS*/
+
+#detail{
+    -moz-box-shadow: 10px 10px 5px #656565;
+    -webkit-box-shadow: 10px 10px 5px #656565;
+    -o-box-shadow: 10px 10px 5px #656565;
+    box-shadow: 10px 10px 5px #656565;  
+    margin-top: 80px;
+    margin-top: 50px;
+    background-color: #DCEDC1;
+    border: 8px solid #FFAAA5;
+
+}
+
+.photodetail{
+    border: solid  #FFD3B6;
+    width:300px; height:400px
+
+}
+
+#foot{
+    border: solid  #FFD3B6;
+    width:300px; height:300px
+
+}
+
+.table{
+
+background-color:  #DCEDC1 ;
+
+}
+
+/* PARTIE CV*/
+
+body{
+    margin:0;
+    padding:0 
+    
+}
+
+.second-bloc,.first-bloc{height: 100%;}
+
+.first-bloc{
+    background-color: aquamarine;
+    
+}
+.second-bloc{
+    background-color: rgb(193, 236, 135);
+    
+}
+
+.rem{
+    font-size:2em;
+}
+
+.text{
+    height:200px;
+    text-align: center;
+    
+}
+
+.CV h1{
+    font-weight: normal;
+    border-bottom: 2px solid #0d0d0e;
+}
+
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+}
+.texte{
+    letter-spacing: 0.6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/*ANIMATION*/
+
+.animate__animated.animate__fadeIn{
+    --animate-duration: 2s;
+
+}
+
+/*POLICE*/
+
+h1{
+
+    font-family: cursive;
+}
